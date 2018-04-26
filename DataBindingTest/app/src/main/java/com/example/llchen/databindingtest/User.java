@@ -5,10 +5,18 @@ package com.example.llchen.databindingtest;
  */
 
 public class User {
-    public final String firstName;
-    public final String lastName;
+    private String firstName;
+    private String lastName;
     public User(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
     }
 }

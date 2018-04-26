@@ -1,12 +1,12 @@
 package com.example.llchen.databindingtest;
 
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 
 import com.example.llchen.databindingtest.databinding.ActivityMainBinding;
 
-public class MainActivityBinding extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
