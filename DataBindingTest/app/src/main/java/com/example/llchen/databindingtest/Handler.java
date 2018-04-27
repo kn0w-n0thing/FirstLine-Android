@@ -11,7 +11,9 @@ import org.w3c.dom.Text;
  */
 
 public class Handler {
-    public void onHandling() {
+    public void onHandling(User user) {
         Log.d(MainActivity.TAG, "onHandling");
+        user.setFirstName("Hello");
+        user.setLastName("World");
     }
 }

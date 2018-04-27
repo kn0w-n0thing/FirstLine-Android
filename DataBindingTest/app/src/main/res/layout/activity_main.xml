@@ -29,6 +29,6 @@
             android:layout_gravity="center_horizontal"
             android:text="Button"
             android:textSize="40dp"
-            android:onClick="@{()->handler.onHandling()}" />
+            android:onClick="@{()->handler.onHandling(user)}" />
     </LinearLayout>
 </layout>
